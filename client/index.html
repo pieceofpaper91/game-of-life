@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>game of life</title>
+	<meta charset="utf8">
+	<script src="/socket.io/socket.io.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js" defer></script>
+	<script type="text/javascript" src="client.js" defer></script>
+</head>
+<body>
+	<button onclick="infect()" id="rot" type="button" value="infect earth">infect earth</button>
+	<button onclick="rain()" id="rain" type="button">Toggle rain</button>
+	<button onclick="snow()" id="snow" type="button">Toggle snow</button>
+	<button onclick="togglePause()" id="pause" type="button">Pause</button>
+</body>
+</html>
